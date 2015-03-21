@@ -1,0 +1,22 @@
+-instalar yeoman:
+npm install -g yo
+
+-instalar gerador de projeto web
+npm install -g generator-webapp
+
+-gerar um projeto exemplo
+mkdir exemplo (cria diretório)
+cd exemplo (entra no diretório criado)
+yo webapp (gera estrutura do projeto)
+
+-gerenciar dependências:
+npm install -g bower (instala o bower)
+bower install (instala as dependências do bower.json)
+ou
+bower install <dependência> (instala uma dependência)
+ou
+bower install <dependência>#<versão> (instala uma versão de dependência)
+
+
+-rodar projeto:
+grunt server
